@@ -1,0 +1,66 @@
+# --- GLOBAL & OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# --- IDE & EDITEURS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# --- SECURITE  ---
+#
+.env
+.env.local
+secrets.json
+
+# --- R1.01 / R1.05 : PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+# Environnements virtuels 
+venv/
+.venv/
+env/
+ENV/
+
+# --- R1.05 : BASES DE DONNEES ---
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+mysql_data/
+
+# --- R2.01 / R3.01 : JAVA (Spring/Maven/Gradle) ---
+target/
+bin/
+build/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+
+# --- R1.02 / R3.01 : WEB (NodeJS / Frontend) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+.next/
+
+# --- R1.04 / SYSTEME (C / C++) ---
+*.exe
+*.o
+*.out
+*.dll
+*.so
+*.dylib
+
+# --- DEVOPS & CLOUD ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+.kube/
